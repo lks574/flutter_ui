@@ -5,6 +5,8 @@ import 'travel_app/travel_app_page.dart';
 import 'adidas_shoes_app/adidas_shoes_app_page.dart';
 import 'music_player_app/music_player_app_page.dart';
 import 'mutiple_navigation_app/mutiple_navigation_app_page.dart';
+import 'version2/account_chart/account_chart.dart';
+import 'version2/rent_car/rent_car_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -66,6 +68,8 @@ class _MyHomePageState extends State<MyHomePage> {
     HomeListModel("AdidasShoes-app", "https://github.com/devefy/Flutter-Adidas-Shoes-Ecommerce-App-UI", AdidasShoesAppPage()),
     HomeListModel("MultipleNavigation-app", "https://github.com/devefy/flutter-multiple-Navigation-Drawers", MultipleNavigationAppPage()),
     HomeListModel("StoryList-app", "https://github.com/devefy/Flutter-Story-App-UI", StoryListAppPage()),
+    HomeListModel("RentCar", "https://github.com/Ronak99/RentCar-App-UI", RentCarPage()),
+    HomeListModel("AccountChart", "https://github.com/Gazer/como-gasto/tree/s01e08", AccountChartPage()),
   ];
 
   @override

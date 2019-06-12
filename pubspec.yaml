@@ -30,6 +30,12 @@ dependencies:
   polygon_clipper: ^1.0.2
 
 
+  # version2 -> rent_car
+  carousel_slider: ^1.3.0
+
+  # version2 -> account_chart
+  charts_flutter: ^0.6.0
+
 
 dev_dependencies:
   flutter_test:
@@ -50,6 +56,9 @@ flutter:
 
   assets:
     - assets/images/
+    - assets/images/rent_car/
+    - assets/fonts/
+
 
 
   fonts:
