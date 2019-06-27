@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ui/views/version2/video_game/video_landing_page.dart';
 import 'views/restaurant_app/restaurant_app_page.dart';
 import 'views/story_list_app/story_list_app_page.dart';
 import 'views/travel_app/travel_app_page.dart';
@@ -72,6 +73,7 @@ class _MyHomePageState extends State<MyHomePage> {
     HomeListModel("RentCar", "https://github.com/Ronak99/RentCar-App-UI", RentCarPage()),
     HomeListModel("AccountChart", "https://github.com/Gazer/como-gasto/tree/s01e08", AccountChartPage()),
     HomeListModel("ClockPage", "https://github.com/Ronak99/ClockApp", ClockPage()),
+    HomeListModel("VideoGema", "https://github.com/TechieBlossom/video_game_messaging_app (branches)", VideoLandingPage()),
   ];
 
   @override
