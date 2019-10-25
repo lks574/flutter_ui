@@ -15,10 +15,10 @@ class CustomIcons {
 }
 
 List<String> images = [
-  "assets/story_image_04.jpg",
-  "assets/story_image_03.jpg",
-  "assets/story_image_02.jpg",
-  "assets/story_image_01.png",
+  "assets/images/story_image_04.jpg",
+  "assets/images/story_image_03.jpg",
+  "assets/images/story_image_02.jpg",
+  "assets/images/story_image_01.png",
 ];
 
 List<String> title = [

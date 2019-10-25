@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ui/views/version2/video_game/video_landing_page.dart';
-import 'views/restaurant_app/restaurant_app_page.dart';
-import 'views/story_list_app/story_list_app_page.dart';
-import 'views/travel_app/travel_app_page.dart';
-import 'views/adidas_shoes_app/adidas_shoes_app_page.dart';
-import 'views/music_player_app/music_player_app_page.dart';
-import 'views/mutiple_navigation_app/mutiple_navigation_app_page.dart';
-import 'views/version2/account_chart/account_chart.dart';
-import 'views/version2/clock_app/clock_page.dart';
-import 'views/version2/rent_car/rent_car_page.dart';
+import 'package:flutter_ui/views/version3/netflix_ui/netflix_screen.dart';
+import 'restaurant_app/restaurant_app_page.dart';
+import 'story_list_app/story_list_app_page.dart';
+import 'travel_app/travel_app_page.dart';
+import 'adidas_shoes_app/adidas_shoes_app_page.dart';
+import 'music_player_app/music_player_app_page.dart';
+import 'mutiple_navigation_app/mutiple_navigation_app_page.dart';
+import 'version2/account_chart/account_chart.dart';
+import 'version2/clock_app/clock_page.dart';
+import 'version2/rent_car/rent_car_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -74,6 +75,7 @@ class _MyHomePageState extends State<MyHomePage> {
     HomeListModel("AccountChart", "https://github.com/Gazer/como-gasto/tree/s01e08", AccountChartPage()),
     HomeListModel("ClockPage", "https://github.com/Ronak99/ClockApp", ClockPage()),
     HomeListModel("VideoGema", "https://github.com/TechieBlossom/video_game_messaging_app (branches)", VideoLandingPage()),
+    HomeListModel("Netfix", "https://github.com/MarcusNg/flutter_netflix_ui_redesign/blob/master/lib/screens/home_screen.dart", NetflixScreen()),
   ];
 
   @override

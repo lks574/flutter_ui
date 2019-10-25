@@ -108,7 +108,7 @@ class _AdidasTopPartState extends State<AdidasTopPart> {
             children: <Widget>[
               Container(
                 child: Image.asset(
-                  "assets/adidas.png",
+                  "assets/images/adidas.png",
                   width: double.infinity,
                   height: double.infinity,
                   fit: BoxFit.cover,
@@ -125,7 +125,7 @@ class _AdidasTopPartState extends State<AdidasTopPart> {
                       color: Colors.black26,
                       shape: BoxShape.circle,
                     ),
-                    child: Image.asset("assets/adidas_360.png"),
+                    child: Image.asset("assets/images/adidas_360.png"),
                   ),
                 ),
               )
@@ -568,7 +568,7 @@ class _AdidasBottomPartState extends State<AdidasBottomPart> {
                   right: -40.0,
                   bottom: -60.0,
                   child: Image.asset(
-                    "assets/adidas_cart.png",
+                    "assets/images/adidas_cart.png",
                     width: screenAwareSize(190.0, context),
                     height: screenAwareSize(155.0, context),
                     fit: BoxFit.cover,

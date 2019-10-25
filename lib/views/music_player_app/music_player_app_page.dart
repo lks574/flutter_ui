@@ -54,17 +54,17 @@ class MusicPlayerAppPage extends StatelessWidget {
               SizedBox(height: 16.0,),
               Row(
                 children: <Widget>[
-                  MusicPlayerItemCard("assets/blue.jpg", "Extremely loud"),
+                  MusicPlayerItemCard("assets/images/blue.jpg", "Extremely loud"),
                   SizedBox(width: 16.0,),
-                  MusicPlayerItemCard("assets/pink.jpg", "Calm & relaxing"),
+                  MusicPlayerItemCard("assets/images/pink.jpg", "Calm & relaxing"),
                 ],
               ),
               SizedBox(height: 32.0,),
               Row(
                 children: <Widget>[
-                  MusicPlayerItemCard("assets/orange.jpg", "Extremely loud"),
+                  MusicPlayerItemCard("assets/images/orange.jpg", "Extremely loud"),
                   SizedBox(width: 16.0,),
-                  MusicPlayerItemCard("assets/yellow.jpg", "Old soul"),
+                  MusicPlayerItemCard("assets/images/yellow.jpg", "Old soul"),
                 ],
               ),
               SizedBox(height: 32.0,),
