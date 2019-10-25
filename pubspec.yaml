@@ -58,6 +58,7 @@ flutter:
     - assets/images/
     - assets/images/rent_car/
     - assets/images/netflix/
+    - assets/images/chat/
     - assets/fonts/
 
 

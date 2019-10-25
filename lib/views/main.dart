@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ui/views/version2/video_game/video_landing_page.dart';
+import 'package:flutter_ui/views/version3/chat_ui/chat_home_screen.dart';
 import 'package:flutter_ui/views/version3/netflix_ui/netflix_screen.dart';
 import 'restaurant_app/restaurant_app_page.dart';
 import 'story_list_app/story_list_app_page.dart';
@@ -20,16 +21,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        // This is the theme of your application.
-        //
-        // Try running your application with "flutter run". You'll see the
-        // application has a blue toolbar. Then, without quitting the app, try
-        // changing the primarySwatch below to Colors.green and then invoke
-        // "hot reload" (press "r" in the console where you ran "flutter run",
-        // or simply save your changes to "hot reload" in a Flutter IDE).
-        // Notice that the counter didn't reset back to zero; the application
-        // is not restarted.
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.red,
+        accentColor: Color(0xFFFEF9EB),
       ),
       home: MyHomePage(title: 'Flutter Demo Home Page'),
     );
@@ -75,7 +68,8 @@ class _MyHomePageState extends State<MyHomePage> {
     HomeListModel("AccountChart", "https://github.com/Gazer/como-gasto/tree/s01e08", AccountChartPage()),
     HomeListModel("ClockPage", "https://github.com/Ronak99/ClockApp", ClockPage()),
     HomeListModel("VideoGema", "https://github.com/TechieBlossom/video_game_messaging_app (branches)", VideoLandingPage()),
-    HomeListModel("Netfix", "https://github.com/MarcusNg/flutter_netflix_ui_redesign/blob/master/lib/screens/home_screen.dart", NetflixScreen()),
+    HomeListModel("Netfix", "https://github.com/MarcusNg/flutter_netflix_ui_redesign/blob/master/lib/screens/chat_home_screen.dart", NetflixScreen()),
+    HomeListModel("Chats","https://github.com/MarcusNg/flutter_chat_ui", ChatHomeScreen()),
   ];
 
   @override
