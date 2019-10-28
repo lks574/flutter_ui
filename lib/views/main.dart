@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ui/views/version2/video_game/video_landing_page.dart';
 import 'package:flutter_ui/views/version3/chat_ui/chat_home_screen.dart';
+import 'package:flutter_ui/views/version3/instagram_feed_ui/instagram_feed_screen.dart';
 import 'package:flutter_ui/views/version3/netflix_ui/netflix_screen.dart';
+import 'package:flutter_ui/views/version3/onboarding/onboarding_screen.dart';
 import 'restaurant_app/restaurant_app_page.dart';
 import 'story_list_app/story_list_app_page.dart';
 import 'travel_app/travel_app_page.dart';
@@ -70,6 +72,8 @@ class _MyHomePageState extends State<MyHomePage> {
     HomeListModel("VideoGema", "https://github.com/TechieBlossom/video_game_messaging_app (branches)", VideoLandingPage()),
     HomeListModel("Netfix", "https://github.com/MarcusNg/flutter_netflix_ui_redesign/blob/master/lib/screens/chat_home_screen.dart", NetflixScreen()),
     HomeListModel("Chats","https://github.com/MarcusNg/flutter_chat_ui", ChatHomeScreen()),
+    HomeListModel("Onboarding", "https://github.com/MarcusNg/flutter_onboarding_ui", OnboardingScreen()),
+    HomeListModel("Instagram", "https://github.com/MarcusNg/flutter_instagram_feed_ui_redesign", InstagramFeedScreen()),
   ];
 
   @override
